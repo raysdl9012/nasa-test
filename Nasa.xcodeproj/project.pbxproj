@@ -20,7 +20,7 @@
 		97C6F9D026B8D60000E9DDBD /* ManagerRequestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9CD26B8D60000E9DDBD /* ManagerRequestServices.swift */; };
 		97C6F9D126B8D60000E9DDBD /* ManagerCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9CE26B8D60000E9DDBD /* ManagerCache.swift */; };
 		97C6F9D226B8D60000E9DDBD /* ManagerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9CF26B8D60000E9DDBD /* ManagerRequest.swift */; };
-		97C6F9D526B8D61200E9DDBD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9D426B8D61200E9DDBD /* Extensions.swift */; };
+		97C6F9D526B8D61200E9DDBD /* ExtensionUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9D426B8D61200E9DDBD /* ExtensionUIKit.swift */; };
 		97C6F9D826B8D8EA00E9DDBD /* NasaItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9D726B8D8EA00E9DDBD /* NasaItems.swift */; };
 		97C6F9DC26B8DB7F00E9DDBD /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9DB26B8DB7F00E9DDBD /* HomeInteractor.swift */; };
 		97C6F9DE26B8DB9700E9DDBD /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9DD26B8DB9700E9DDBD /* HomeRouter.swift */; };
@@ -29,6 +29,14 @@
 		97C6F9E426B8DBB700E9DDBD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C6F9E226B8DBB700E9DDBD /* HomeViewController.xib */; };
 		97C6F9E826B8ECD400E9DDBD /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9E626B8ECD400E9DDBD /* HomeTableViewCell.swift */; };
 		97C6F9E926B8ECD400E9DDBD /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C6F9E726B8ECD400E9DDBD /* HomeTableViewCell.xib */; };
+		97C6F9EB26B9A06700E9DDBD /* ExtensionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9EA26B9A06700E9DDBD /* ExtensionError.swift */; };
+		97C6F9F326B9BD2400E9DDBD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9F126B9BD2400E9DDBD /* DetailViewController.swift */; };
+		97C6F9F426B9BD2400E9DDBD /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C6F9F226B9BD2400E9DDBD /* DetailViewController.xib */; };
+		97C6F9F826B9BE1100E9DDBD /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9F626B9BE1100E9DDBD /* DetailTableViewCell.swift */; };
+		97C6F9F926B9BE1100E9DDBD /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C6F9F726B9BE1100E9DDBD /* DetailTableViewCell.xib */; };
+		97C6F9FB26B9C04F00E9DDBD /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9FA26B9C04F00E9DDBD /* DetailRouter.swift */; };
+		97C6F9FD26B9C43C00E9DDBD /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9FC26B9C43C00E9DDBD /* DetailPresenter.swift */; };
+		97C6F9FF26B9D85500E9DDBD /* ExtensionNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C6F9FE26B9D85500E9DDBD /* ExtensionNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +76,7 @@
 		97C6F9CD26B8D60000E9DDBD /* ManagerRequestServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerRequestServices.swift; sourceTree = "<group>"; };
 		97C6F9CE26B8D60000E9DDBD /* ManagerCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerCache.swift; sourceTree = "<group>"; };
 		97C6F9CF26B8D60000E9DDBD /* ManagerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerRequest.swift; sourceTree = "<group>"; };
-		97C6F9D426B8D61200E9DDBD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		97C6F9D426B8D61200E9DDBD /* ExtensionUIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIKit.swift; sourceTree = "<group>"; };
 		97C6F9D726B8D8EA00E9DDBD /* NasaItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaItems.swift; sourceTree = "<group>"; };
 		97C6F9DB26B8DB7F00E9DDBD /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		97C6F9DD26B8DB9700E9DDBD /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
@@ -77,6 +85,14 @@
 		97C6F9E226B8DBB700E9DDBD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		97C6F9E626B8ECD400E9DDBD /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		97C6F9E726B8ECD400E9DDBD /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		97C6F9EA26B9A06700E9DDBD /* ExtensionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionError.swift; sourceTree = "<group>"; };
+		97C6F9F126B9BD2400E9DDBD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		97C6F9F226B9BD2400E9DDBD /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		97C6F9F626B9BE1100E9DDBD /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		97C6F9F726B9BE1100E9DDBD /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		97C6F9FA26B9C04F00E9DDBD /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		97C6F9FC26B9C43C00E9DDBD /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		97C6F9FE26B9D85500E9DDBD /* ExtensionNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionNotificationCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +199,9 @@
 		97C6F9D326B8D60700E9DDBD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				97C6F9D426B8D61200E9DDBD /* Extensions.swift */,
+				97C6F9D426B8D61200E9DDBD /* ExtensionUIKit.swift */,
+				97C6F9EA26B9A06700E9DDBD /* ExtensionError.swift */,
+				97C6F9FE26B9D85500E9DDBD /* ExtensionNotificationCenter.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -199,6 +217,7 @@
 		97C6F9D926B8DB5500E9DDBD /* Viper */ = {
 			isa = PBXGroup;
 			children = (
+				97C6F9EC26B9BC8000E9DDBD /* Detail */,
 				97C6F9DA26B8DB5D00E9DDBD /* Home */,
 			);
 			path = Viper;
@@ -222,6 +241,27 @@
 			children = (
 				97C6F9E626B8ECD400E9DDBD /* HomeTableViewCell.swift */,
 				97C6F9E726B8ECD400E9DDBD /* HomeTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		97C6F9EC26B9BC8000E9DDBD /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				97C6F9F526B9BDFF00E9DDBD /* Cell */,
+				97C6F9F126B9BD2400E9DDBD /* DetailViewController.swift */,
+				97C6F9F226B9BD2400E9DDBD /* DetailViewController.xib */,
+				97C6F9FA26B9C04F00E9DDBD /* DetailRouter.swift */,
+				97C6F9FC26B9C43C00E9DDBD /* DetailPresenter.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		97C6F9F526B9BDFF00E9DDBD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				97C6F9F626B9BE1100E9DDBD /* DetailTableViewCell.swift */,
+				97C6F9F726B9BE1100E9DDBD /* DetailTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -330,9 +370,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9766797726B8D44500426EFF /* LaunchScreen.storyboard in Resources */,
+				97C6F9F426B9BD2400E9DDBD /* DetailViewController.xib in Resources */,
 				9766797426B8D44500426EFF /* Assets.xcassets in Resources */,
 				9766796F26B8D44500426EFF /* Main.storyboard in Resources */,
 				97C6F9E926B8ECD400E9DDBD /* HomeTableViewCell.xib in Resources */,
+				97C6F9F926B9BE1100E9DDBD /* DetailTableViewCell.xib in Resources */,
 				97C6F9E426B8DBB700E9DDBD /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,12 +400,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C6F9F826B9BE1100E9DDBD /* DetailTableViewCell.swift in Sources */,
 				97C6F9D126B8D60000E9DDBD /* ManagerCache.swift in Sources */,
+				97C6F9F326B9BD2400E9DDBD /* DetailViewController.swift in Sources */,
+				97C6F9FD26B9C43C00E9DDBD /* DetailPresenter.swift in Sources */,
+				97C6F9FB26B9C04F00E9DDBD /* DetailRouter.swift in Sources */,
 				97C6F9DE26B8DB9700E9DDBD /* HomeRouter.swift in Sources */,
 				97C6F9DC26B8DB7F00E9DDBD /* HomeInteractor.swift in Sources */,
-				97C6F9D526B8D61200E9DDBD /* Extensions.swift in Sources */,
+				97C6F9D526B8D61200E9DDBD /* ExtensionUIKit.swift in Sources */,
 				9766797226B8D44500426EFF /* Nasa.xcdatamodeld in Sources */,
 				97C6F9E326B8DBB700E9DDBD /* HomeViewController.swift in Sources */,
+				97C6F9EB26B9A06700E9DDBD /* ExtensionError.swift in Sources */,
 				97C6F9E826B8ECD400E9DDBD /* HomeTableViewCell.swift in Sources */,
 				9766796C26B8D44500426EFF /* ViewController.swift in Sources */,
 				97C6F9D226B8D60000E9DDBD /* ManagerRequest.swift in Sources */,
@@ -373,6 +420,7 @@
 				97C6F9D026B8D60000E9DDBD /* ManagerRequestServices.swift in Sources */,
 				9766796A26B8D44500426EFF /* SceneDelegate.swift in Sources */,
 				97C6F9CB26B8D5DA00E9DDBD /* RouterFacade.swift in Sources */,
+				97C6F9FF26B9D85500E9DDBD /* ExtensionNotificationCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

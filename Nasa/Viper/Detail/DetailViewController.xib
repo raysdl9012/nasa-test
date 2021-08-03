@@ -8,9 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Nasa" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="Nasa" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="2gR-JS-wng" id="24u-iE-0y0"/>
+                <outlet property="tableView" destination="Ay5-9j-eI7" id="p3Q-xA-XxZ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2gR-JS-wng">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ay5-9j-eI7">
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
@@ -27,12 +27,12 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="2gR-JS-wng" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="4J5-va-NYu"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2gR-JS-wng" secondAttribute="trailing" id="M9R-Rh-mDw"/>
-                <constraint firstItem="2gR-JS-wng" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Rbh-tx-fdc"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="2gR-JS-wng" secondAttribute="bottom" id="sVA-jD-SBV"/>
+                <constraint firstItem="Ay5-9j-eI7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="5Fb-qB-tqH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Ay5-9j-eI7" secondAttribute="bottom" id="Rvo-2r-y2g"/>
+                <constraint firstItem="Ay5-9j-eI7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cVw-gF-kOa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ay5-9j-eI7" secondAttribute="trailing" id="fYs-pp-0Ic"/>
             </constraints>
-            <point key="canvasLocation" x="137.68115942028987" y="106.47321428571428"/>
+            <point key="canvasLocation" x="137.68115942028987" y="145.98214285714286"/>
         </view>
     </objects>
     <resources>

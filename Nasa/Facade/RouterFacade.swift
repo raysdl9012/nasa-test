@@ -20,8 +20,14 @@ class RouterFacade {
     
     func getHometView() -> UIViewController {
         let router =  HomeRouter.start()
-        let inicialView = router.entry!
-        return inicialView
+        let vc = router.entry!
+        return vc
+    }
+    
+    func getDetailView(item: NasaItems) -> UIViewController {
+        let router =  DetailRouter.start(item:item)
+        let vc =  router.entry!
+        return vc
     }
     
     func setRootViewController(view: UIViewController) {

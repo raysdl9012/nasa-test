@@ -24,17 +24,6 @@ extension UITableView {
     }
 }
 
-
-
-extension ErrorsRequest {
-    public var description: String {
-        switch self {
-        case .BAD_REQUEST:
-            return "Expected 'q' text search parameter or other keywords."
-        }
-    }
-}
-
 extension UIImageView {
     func configImage() {
         self.layer.cornerRadius = 20

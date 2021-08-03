@@ -23,6 +23,7 @@ struct NasaItems: Codable{
     public var links: [LinksImage]?
     public var href: String
     public var data: [DataNasa]?
+    public var like: Bool?
 }
 
 struct LinksImage: Codable {

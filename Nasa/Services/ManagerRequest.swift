@@ -18,6 +18,7 @@ enum ENPOINTS: String {
 
 enum ErrorsRequest: Error {
     case BAD_REQUEST
+    case BAD_URL
 }
 
 enum METHOD_HTTP: String {
@@ -42,8 +43,10 @@ class ManagerRequest {
         params: String,
         body: Dictionary<String,Any>?, completion: @escaping COMPLETION_HTTP){
         
-        let paramsRequest = params  
-        guard let url =  URL(string: baseUrl.rawValue + endpoint.rawValue + paramsRequest) else { return print("ERROR URL") }
+        guard let url =  URL(string: baseUrl.rawValue + endpoint.rawValue + params) else {
+            completion(nil, ErrorsRequest.BAD_URL)
+            return
+        }
         var request = URLRequest(url: url)
         request.httpMethod = method.rawValue
         self.sessionRequest.dataTask(with: request) { (data, response, error) in
@@ -52,7 +55,6 @@ class ManagerRequest {
                 completion(nil, error)
                 return
             }
-            
             if (response.statusCode == 400) {
                 completion(nil, ErrorsRequest.BAD_REQUEST)
             }
@@ -65,10 +67,11 @@ class ManagerRequest {
     
     public func downloadImage(from imagePath: String, completion: @escaping COMPLETION_DATA) {
         
-//        print(imagePath)
         let finalImage = imagePath.replacingOccurrences(of: " ", with: "%")
-        print(finalImage)
-        guard let url =  URL(string: finalImage) else { return print("ERROR URL") }
+        guard let url =  URL(string: finalImage) else {
+            completion(nil, ErrorsRequest.BAD_URL)
+            return
+        }
         URLSession.shared.dataTask(with: url, completionHandler: { data, response, error in
             
             guard let data = data, error == nil, let response = response as? HTTPURLResponse else {
